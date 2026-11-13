@@ -1,0 +1,20 @@
+{
+    "dataset_name": "Dry Bean Dataset",
+    "source": "UCI Machine Learning Repository",
+    "url": "https://archive.ics.uci.edu/dataset/602/dry+bean+dataset",
+    "authors": [
+        "Murat Koklu",
+        "Ilker Ali Ozkan"
+    ],
+    "year": 2020,
+    "license": "CC BY 4.0",
+    "doi": "10.24432/C50S4B",
+    "download_date": "2026-11-10",
+    "file": "Dry_Bean_Dataset.xlsx",
+    "sheet": "Dry_Beans_Dataset",
+    "records_expected": 13611,
+    "features_expected": 16,
+    "target": "Class",
+    "target_units": "Назви сортів квасолі, одиниці вимірювання відсутні",
+    "seed": 42
+}
