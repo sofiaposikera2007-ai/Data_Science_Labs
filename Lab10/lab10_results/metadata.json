@@ -1,0 +1,43 @@
+{
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "seed": 42,
+  "class_names": [
+    "chicken_quesadilla",
+    "grilled_cheese_sandwich",
+    "prime_rib"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "pixel_range": [
+    0,
+    255
+  ],
+  "backbone": "EfficientNetB0",
+  "weights": "imagenet",
+  "selected_stage": "fine_tuning",
+  "comparison": [
+    {
+      "stage": "feature_extraction",
+      "lr": 0.001,
+      "params": 3843,
+      "epochs": 10,
+      "accuracy": 0.9511111378669739,
+      "loss": 0.14249823987483978
+    },
+    {
+      "stage": "fine_tuning",
+      "lr": 1e-05,
+      "params": 1125427,
+      "epochs": 10,
+      "accuracy": 0.9577777981758118,
+      "loss": 0.12736336886882782
+    }
+  ],
+  "test_metrics": {
+    "accuracy": 0.95333331823349,
+    "loss": 0.10339420288801193
+  }
+}
